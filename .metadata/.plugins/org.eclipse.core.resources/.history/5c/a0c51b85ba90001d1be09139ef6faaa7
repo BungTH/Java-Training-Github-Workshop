@@ -1,0 +1,13 @@
+package bung.hello.world;
+
+import bung.lib.Printer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Printer
+		
+	}
+
+}

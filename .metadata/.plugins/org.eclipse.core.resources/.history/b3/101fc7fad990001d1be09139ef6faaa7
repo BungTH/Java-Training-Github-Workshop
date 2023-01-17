@@ -1,0 +1,24 @@
+package bung.fruitcalculator;
+
+public class Banana {
+
+	private String taste;
+	private double weight;
+	
+	public String getTaste() {
+		return taste;
+	}
+	
+	public void setTaste() {
+		
+	}
+	
+	public double getWeight() {
+		return weight;
+	}
+	
+	public void setWeight() {
+		
+	}
+	
+}

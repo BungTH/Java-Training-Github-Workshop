@@ -1,0 +1,12 @@
+package bung.fruitcalculator;
+
+public class Basket {
+
+	Banana infoBanana = new Banana();
+	Orange infoOrange = new Orange();
+	
+	public static void main(String[] args) {
+		System.out.println(infoBanana.getTaste());
+	}
+	
+}

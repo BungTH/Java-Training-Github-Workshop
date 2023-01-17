@@ -1,0 +1,7 @@
+package bung.fruitcalculator;
+
+public class Calculator {
+
+	Banana tasteBanana = new Banana();
+	
+}

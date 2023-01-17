@@ -1,0 +1,7 @@
+package bung.fruitcalculator;
+
+public class Main {
+
+	Basket tmpBasket = new Basket;
+	
+}

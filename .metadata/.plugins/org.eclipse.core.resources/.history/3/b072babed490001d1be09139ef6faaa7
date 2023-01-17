@@ -1,0 +1,18 @@
+package bung.fruitcalculator;
+
+public class Basket {
+
+	Banana infoBanana = new Banana();
+	Orange infoOrange = new Orange();
+	
+	public double sumWeight() {
+		double totalWeight = 0;
+		double weightBanana = infoBanana.getWeight();
+		double weightOrange = infoOrange.getWeight();
+		
+		totalWeight = weightBanana + weightOrange;
+		
+		return totalWeight;
+	}
+	
+}

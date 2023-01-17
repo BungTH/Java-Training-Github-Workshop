@@ -1,0 +1,13 @@
+package bung.fruitcalculator;
+
+public class Main {
+
+	Banana firstBanana = new Banana();
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package bung.fruitcalculator;
+
+public class Main {
+
+	Basket infoBasket = new Basket();
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Total weight is " + infoBasket.sumWeight());
+		
+	}
+	
+}

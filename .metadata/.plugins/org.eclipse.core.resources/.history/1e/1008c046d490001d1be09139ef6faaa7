@@ -1,0 +1,14 @@
+package bung.hello.world;
+
+import bung.lib.CustomPrinter;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		CustomPrinter printMes = new CustomPrinter();
+		printMes.printMsg();
+		
+	}
+
+}

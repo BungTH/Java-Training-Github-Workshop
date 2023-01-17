@@ -1,0 +1,16 @@
+package bung.fruitcalculator;
+
+public class Orange {
+
+	private String[] taste = new String[]{"sour", "sour", "sour"};
+	private double[] weight = new double[]{0.65, 0.45, 1.4};
+	
+	public String[] getTaste() {
+		return taste;
+	}
+	
+	public double[] getWeight() {
+		return weight;
+	}
+	
+}

@@ -1,0 +1,10 @@
+package bung.fruitcalculator;
+
+public class Calculator {
+
+	Banana infoBanana = new Banana();
+	Orange infoOrange = new Orange();
+	
+	
+	
+}

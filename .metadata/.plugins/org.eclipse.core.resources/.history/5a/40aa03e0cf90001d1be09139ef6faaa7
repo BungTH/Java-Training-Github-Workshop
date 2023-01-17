@@ -1,0 +1,13 @@
+package bung.fruitcalculator;
+
+public class Banana {
+
+	private string taste() {
+		
+	}
+	
+	private double weight() {
+		
+	}
+	
+}

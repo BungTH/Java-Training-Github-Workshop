@@ -1,0 +1,7 @@
+package bung.fruitcalculator;
+
+public class Basket {
+
+	private tasteBanana = new Banana.getTaste;
+	
+}

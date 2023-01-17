@@ -1,0 +1,33 @@
+package bung.fruitcalculator;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		Banana firstBanana = new Banana();
+		Banana secondBanana = new Banana();
+		Banana thirdBanana = new Banana();
+		
+		Orange firstOrange = new Orange();
+		Orange secondOrange = new Orange();
+		
+		firstBanana.setWeight(0.5);
+		secondBanana.setWeight(0.45);
+		thirdBanana.setWeight(0.35);
+		
+		firstOrange.setWeight(0.4);
+		secondOrange.setWeight(0.6);
+		
+		Basket.addBanana(firstBanana);
+		Basket.addBanana(secondBanana);
+		Basket.addBanana(thirdBanana);
+		
+		Basket.addOrange(firstOrange);
+		Basket.addOrange(secondOrange);
+		
+		Basket.sumWeight();
+	}
+	
+}

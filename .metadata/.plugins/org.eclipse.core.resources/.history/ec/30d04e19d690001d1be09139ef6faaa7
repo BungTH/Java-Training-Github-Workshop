@@ -1,0 +1,23 @@
+package bung.fruitcalculator;
+
+import java.util.ArrayList;
+
+public class Basket {
+
+	Banana infoBanana = new Banana();
+	Orange infoOrange = new Orange();
+	
+	ArrayList<Basket> arrayBanana;
+	ArrayList<Basket> arrayOrange;
+	
+	public double sumWeight() {
+		double totalWeight = 0;
+		double weightBanana = infoBanana.getWeight();
+		double weightOrange = infoOrange.getWeight();
+		
+		totalWeight = weightBanana + weightOrange;
+		
+		return totalWeight;
+	}
+	
+}
